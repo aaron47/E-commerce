@@ -1,8 +1,8 @@
-import { CartService } from '../../services/cart-service.service';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Product, ROWS_HEIGHT } from 'src/app/utils/types';
-import { StoreService } from 'src/app/services/store.service';
 import { Observable, Subscription } from 'rxjs';
+import { CartService } from 'src/app/services/cart-service.service';
+import { StoreService } from 'src/app/services/store.service';
 
 @Component({
   selector: 'app-home',
