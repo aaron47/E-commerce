@@ -9,7 +9,7 @@ import { Cart, CartItem } from '../utils/types';
 export class CartService {
   cart = new BehaviorSubject<Cart>({ items: [] });
 
-  constructor(private _snackBar: MatSnackBar) {}
+  constructor(private readonly _snackBar: MatSnackBar) {}
 
   addToCart(item: CartItem): void {
     const items = [...this.cart.value.items];
