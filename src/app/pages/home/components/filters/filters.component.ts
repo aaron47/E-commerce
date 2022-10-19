@@ -1,6 +1,6 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Observable } from 'rxjs';
-import { StoreService } from 'src/app/service/store.servie';
+import { StoreService } from 'src/app/service/store.service';
 
 @Component({
   selector: 'app-filters',
