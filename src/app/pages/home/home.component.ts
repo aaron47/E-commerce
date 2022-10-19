@@ -1,8 +1,8 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Product, ROWS_HEIGHT } from 'src/app/utils/types';
-import { Observable, Subscription } from 'rxjs';
-import { CartService } from 'src/app/services/cart-service.service';
-import { StoreService } from 'src/app/services/store.service';
+import { Observable } from 'rxjs';
+import { CartService } from 'src/app/service/cart-service.service';
+import { StoreService } from 'src/app/service/store.servie';
 
 @Component({
   selector: 'app-home',

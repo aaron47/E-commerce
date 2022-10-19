@@ -1,5 +1,5 @@
-import { CartService } from './services/cart-service.service';
 import { Component, OnInit } from '@angular/core';
+import { CartService } from './service/cart-service.service';
 import { Cart } from './utils/types';
 
 @Component({
